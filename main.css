@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: coral;
+    width: 400px;
+    max-width: 100%;
+    padding: 32px;
+}
+
+.btnsubmit {
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 3px;
+    display: block;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.form-control.success input {
+    border-color: yellowgreen;
+}
+
+.form-control.error input {
+    border-color: red;
+}
+
+.form-control.success i.fa-check-circle {
+    border-color: yellowgreen;
+}
